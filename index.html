@@ -8,7 +8,7 @@
     <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
     <!-- <script src='main.js'></script> -->
 </head>
-<body>
+<body ontouchmove="eyeball(event)>
     <div class="face">
         <div class="eyes">
             <div class="eye"></div> 
@@ -17,7 +17,7 @@
 
     </div>
     <script>
-        document.querySelector('body').addEventListener('touchend',eyeball,false);
+        document.querySelector('body').addEventListener('mousemove',eyeball);
     
     function eyeball()
     {
